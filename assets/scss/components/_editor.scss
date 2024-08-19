@@ -1,0 +1,14 @@
+.editor {
+  &-collapse {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  &-textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 1rem;
+  }
+}
