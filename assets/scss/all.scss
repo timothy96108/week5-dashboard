@@ -9,8 +9,14 @@
 // base
 @import './base/base';
 
+// components
+@import './components/icons';
+@import './components/avatar';
+@import './components/dropdown';
+
 // layout
-@import './layout/header';
+@import './layout/aside';
+@import './layout/main';
 
 // pages
 @import './pages/index';

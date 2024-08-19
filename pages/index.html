@@ -4,13 +4,42 @@
 <%- include('./layout/head'); -%>
 
   <body>
-    <%- include('./layout/header'); -%>
+    <div class="d-flex">
+      <%- include('./layout/aside', { page: 'assignment' }); -%>
 
-      <main>
+        <main class="main">
+          <div class="container px-4">
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
+              <div class="container-fluid">
+                <div class="d-flex align-items-center gap-4">
+                  <h1 class="navbar-brand fw-bold">Assignment</h1>
+                  <div class="dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      All Courses
+                    </a>
+                    <ul class="dropdown-menu position-absolute" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">網頁切版直播班</a></li>
+                      <li><a class="dropdown-item" href="#">JavaScript 直播班</a></li>
+                      <li><a class="dropdown-item" href="#">React 直播班</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="btn border-0">
+                    <span class="material-symbols-outlined">search</span>
+                  </button>
+                  <button type="button" class="btn border-0">
+                    <span class="material-symbols-outlined">notifications_active</span>
+                  </button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </main>
+    </div>
 
-      </main>
-
-      <script type="module" src="../main.js"></script>
+    <script type="module" src="../main.js"></script>
   </body>
 
 </html>

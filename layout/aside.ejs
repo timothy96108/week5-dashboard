@@ -1,0 +1,62 @@
+<aside class="aside navbar navbar-light bg-light vh-100 py-4 position-fixed">
+  <div class="container-fluid align-items-start h-100 px-0">
+    <div class="w-100">
+      <a class="navbar-brand ms-4 mb-4" href="#">
+        <img src="/assets/images/logo.svg" alt="logo">
+      </a>
+      <ul class="navbar-nav gap-4 mb-4">
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'dashboard' ? 'border-success text-success active' : 'border-light' %>"
+            href="#">
+            <span class="material-symbols-outlined me-4">assessment</span>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'question' ? 'border-success text-success active' : 'border-light' %>"
+            href="#">
+            <span class="material-symbols-outlined me-4">question_answer</span>
+            Question
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'assignment' ? 'border-success text-success active' : 'border-light' %>"
+            href="index.html">
+            <span class="material-symbols-outlined me-4">assignment</span>
+            Assignment
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'course' ? 'border-success text-success active' : 'border-light' %>"
+            href="#">
+            <span class="material-symbols-outlined me-4">video_library</span>
+            Course
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'admin' ? 'border-success text-success active' : 'border-light' %>"
+            href="admin.html">
+            <span class="material-symbols-outlined me-4">supervisor_account</span>
+            Admin
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold ps-4 border-start border-4 <%= page === 'settings' ? 'border-success text-success active' : 'border-light' %>"
+            href="#">
+            <span class="material-symbols-outlined me-4">settings</span>
+            Settings
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex align-items-center ps-4 mt-auto">
+      <div class="flex-shrink-0">
+        <img src="/assets/images/avatar-1.jpeg" alt="avatar" class="avatar">
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <p class="fw-bold">Andy Chen</p>
+        <p class="text-secondary">andy0401@mail.com</p>
+      </div>
+    </div>
+  </div>
+</aside>
