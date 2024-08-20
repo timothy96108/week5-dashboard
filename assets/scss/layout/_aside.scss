@@ -4,4 +4,10 @@
   &.navbar {
     width: 296px;
   }
+
+  .nav-link {
+    &:hover {
+      background-color: $gray-400;
+    }
+  }
 }

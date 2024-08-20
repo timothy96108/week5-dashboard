@@ -1,7 +1,19 @@
-.dropdown-toggle::after {
-  border: none;
-  font-family: 'Material Symbols Outlined';
-  content: '\e313';
-  vertical-align: bottom;
-  color: $success;
+.dropdown {
+  .nav-link {
+    transition: 0s;
+
+    &:hover {
+      color: $success;
+    }
+  }
+
+  &-toggle {
+    &::after {
+      border: none;
+      font-family: 'Material Symbols Outlined';
+      content: '\e313';
+      vertical-align: bottom;
+      color: $success;
+    }
+  }
 }

@@ -16,6 +16,7 @@
 @import './components/list-group';
 @import './components/editor';
 @import './components/pagination';
+@import './components/form';
 
 // layout
 @import './layout/aside';
@@ -23,3 +24,4 @@
 
 // pages
 @import './pages/index';
+@import './pages/admin';
